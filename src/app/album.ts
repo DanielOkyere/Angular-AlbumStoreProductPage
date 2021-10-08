@@ -1,9 +1,8 @@
-import Track from './track'
-interface Album {
+import {Track} from './track';
+export interface Album {
   name:string;
   releaseDate:string;
   coverImage:string;
-  traks: Track[];
+  tracks: Track[];
 }
 
-export default Album
